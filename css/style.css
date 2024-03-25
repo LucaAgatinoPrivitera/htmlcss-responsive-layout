@@ -37,6 +37,9 @@
     display: block;
     justify-content: space-around;
 }
+.bgwhite{
+    background-color: white;
+}
 
 header{
     height: 6rem;
@@ -121,4 +124,14 @@ a.button{
 .flex-aboutus{
     display: block;
     gap: 1rem;
+}
+
+footer{
+    color: white;
+    background-color: rgb(83, 77, 77);
+}
+footer div{
+    padding: 1.5rem;
+    width: 60%;
+    margin: auto;
 }
