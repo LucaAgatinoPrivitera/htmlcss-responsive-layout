@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-responsive-layout</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/ee64cb3605.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
     <header>
         <!-- I div rappresentano img e hamburger menu -->
         <nav>
-            <div class="debug"></div>
-            <div class="debug"></div>
+            <div id="marchio">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="nav-div-info">
+                <span>Planning</span>
+                <span>Testimonials</span>
+                <span>Features</span>
+                <span>About us</span>
+                <a href="#">Get Started</a>
+            </div>
+            <i class="menu fa-solid fa-bars"></i>
         </nav>
 
     </header>
@@ -22,52 +32,52 @@
         <div class="main-container">
             <!-- Prima section -->
             <section class="text-center section-padding-bottom main-container-section flex-prima-sezione">
-                <div class="text-center bigger-card debug text-left flex-prima-sezione-bigcard">
+                <div class="text-center bigger-card text-left flex-prima-sezione-bigcard">
                     <h2 class="text-padding-bottom">Lorem ipsum dolor sit.</h2>
                     <p class="text-padding-bottom">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis alias libero, facere optio pariatur cum error saepe aliquid porro itaque.</p>
-                    <a class="button text-padding-bottom" href="#">App store</a>
-                    <img class="text-padding-bottom" src="" alt="img">
+                    <a class="button text-padding-bottom text-margin-bottom" href="#">App store</a>
+                    <img class="" src="./img/phone.png" alt="img">
                 </div>
 
-                <div class="text-center smaller-card debug">
-                    <img class="text-padding-bottom" src="" alt="img-icon">
-                    <h2 class="text-padding-bottom">Lorem, ipsum.</h2>
-                    <p class="text-padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo autem id ex officiis dignissimos quos optio ad saepe enim quod.</p>
+                <div class="text-center smaller-card">
+                    <i class="big-icon fa-solid fa-file text-padding-bottom-half"></i>
+                    <h2 class="smaller-card-h2 text-padding-bottom">Lorem, ipsum.</h2>
+                    <p class="smaller-card-p text-padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo autem id ex officiis dignissimos quos optio ad saepe enim quod.</p>
                 </div>
 
-                <div class="text-center smaller-card debug">
-                    <img class="text-padding-bottom" src="" alt="img-icon">
-                    <h2 class="text-padding-bottom">Lorem, ipsum.</h2>
-                    <p class="text-padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo autem id ex officiis dignissimos quos optio ad saepe enim quod.</p>
+                <div class="text-center smaller-card">
+                    <i class="big-icon fa-solid fa-file text-padding-bottom-half"></i>
+                    <h2 class="smaller-card-h2 text-padding-bottom">Lorem, ipsum.</h2>
+                    <p class="smaller-card-p text-padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo autem id ex officiis dignissimos quos optio ad saepe enim quod.</p>
                 </div>
 
-                <div class="text-center smaller-card debug">
-                    <img class="text-padding-bottom" src="" alt="img-icon">
-                    <h2 class="text-padding-bottom">Lorem, ipsum.</h2>
-                    <p class="text-padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo autem id ex officiis dignissimos quos optio ad saepe enim quod.</p>
+                <div class="text-center smaller-card">
+                    <i class="big-icon fa-solid fa-file text-padding-bottom-half"></i>
+                    <h2 class="smaller-card-h2 text-padding-bottom">Lorem, ipsum.</h2>
+                    <p class="smaller-card-p text-padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo autem id ex officiis dignissimos quos optio ad saepe enim quod.</p>
                 </div>
 
-                <div class="text-center smaller-card debug">
-                    <img class="text-padding-bottom" src="" alt="img-icon">
-                    <h2 class="text-padding-bottom">Lorem, ipsum.</h2>
-                    <p class="text-padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo autem id ex officiis dignissimos quos optio ad saepe enim quod.</p>
+                <div class="text-center smaller-card">
+                    <i class="big-icon fa-solid fa-file text-padding-bottom-half"></i>
+                    <h2 class="smaller-card-h2 text-padding-bottom">Lorem, ipsum.</h2>
+                    <p class="smaller-card-p text-padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo autem id ex officiis dignissimos quos optio ad saepe enim quod.</p>
                 </div>
             </section>
         </div>
 
         <!-- Seconda section -->
         <div class="main-container-full">
-                <section class="section-padding-bottom main-container-full-section debug flex-only992px">
+                <section class="section-padding-bottom main-container-full-section flex-only992px">
                     <div class="flex justify-center align-self-end">
-                        <img class="text-padding-bottom img-center" src="" alt="grande">
-                        <h2 class="text-padding-bottom">Lorem, ipsum.</h2>
-                        <p class="text-padding-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quidem ab et voluptas dignissimos aut cupiditate nostrum aliquam excepturi maxime.</p>
+                        <img class="text-padding-bottom img-center w-100" src="./img/planning1.png" alt="grande">
+                        <h2 class="text-padding-bottom color-white">Lorem, ipsum.</h2>
+                        <p class="text-padding-bottom color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quidem ab et voluptas dignissimos aut cupiditate nostrum aliquam excepturi maxime.</p>
                     </div>
                     <div class="internal-card text-center">
-                        <img class="text-padding-bottom" src="" alt="grande">
+                        <img class="text-padding-bottom w-100" src="./img/planning2.png" alt="grande">
                         <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
                         <p class="text-padding-bottom text-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tempore unde officiis vel natus nisi?</p>
-                        <p class="icon">icona</p>
+                        <i class="fa-solid fa-down-long icon"></i>
                     </div>
             </section>
         </div>
@@ -81,31 +91,31 @@
                 <!-- varie cards -->
                 <div class="cards-block">
                     <div class="w30">
-                        <img class="text-padding-bottom" src="" alt="123">
+                        <img class="text-padding-bottom padding-top w-50 border-radius50" src="./img/testimonial1.jpg" alt="123">
                     </div>
-                    <div class="w60%">
-                        <p class="text-padding-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti laborum sapiente beatae est dolorum.</p>
-                        <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
+                    <div class="w60% margin-auto-tablet">
+                        <p class="text-padding-bottom w-90 margin-auto margin-auto-tablet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti laborum sapiente beatae est dolorum.</p>
+                        <h3 class="text-padding-bottom w-90 margin-auto-tablet">Lorem, ipsum.</h3>
                     </div>
                 </div>
                 
                 <div class="cards-block">
                     <div class="w30">
-                        <img class="text-padding-bottom" src="" alt="123">
+                        <img class="text-padding-bottom padding-top w-50 border-radius50" src="./img/testimonial2.jpg" alt="123">
                     </div>
                     <div class="w60">
-                        <p class="text-padding-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti laborum sapiente beatae est dolorum.</p>
-                        <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
+                        <p class="text-padding-bottom w-90 margin-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti laborum sapiente beatae est dolorum.</p>
+                        <h3 class="text-padding-bottom w-90 margin-auto-tablet">Lorem, ipsum.</h3>
                     </div>
                 </div>
 
                 <div class="cards-block">
                     <div class="w30">
-                        <img class="text-padding-bottom" src="" alt="123">
+                        <img class="text-padding-bottom padding-top w-50 border-radius50" src="./img/testimonial3.jpg" alt="123">
                     </div>
                     <div class="w60%">
-                        <p class="text-padding-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti laborum sapiente beatae est dolorum.</p>
-                        <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
+                        <p class="text-padding-bottom w-90 margin-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti laborum sapiente beatae est dolorum.</p>
+                        <h3 class="text-padding-bottom w-90 margin-auto-tablet">Lorem, ipsum.</h3>
                     </div>
                 </div>
             </section>
@@ -113,49 +123,49 @@
 
         <!-- Section con cards -->
         <div class="main-container-full">
-            <section class="section-padding-bottom main-container-full-section debug">
+            <section class="section-padding-bottom main-container-full-section">
                 <h2 class="text-padding-bottom text-center">Benefits of working with us</h2>
                 <div class="container-cards container-cards-flex padding">
                     <div class="container-cards-item">
                         <h2 class="text-padding-bottom">01</h2>
                         <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
                         <p class="text-padding-bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis nesciunt facilis natus aut fugiat laudantium earum eligendi explicabo dolorem.</p>
-                        <a class="text-padding-bottom icon" href="#">more</a>
+                        <a class="text-padding-bottom icon-more" href="#">more</a>
                     </div>
 
                     <div class="container-cards-item">
                         <h2 class="text-padding-bottom">02</h2>
                         <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
                         <p class="text-padding-bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis nesciunt facilis natus aut fugiat laudantium earum eligendi explicabo dolorem.</p>
-                        <a class="text-padding-bottom icon" href="#">more</a>
+                        <a class="text-padding-bottom icon-more" href="#">more</a>
                     </div>
 
                     <div class="container-cards-item">
                         <h2 class="text-padding-bottom">03</h2>
                         <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
                         <p class="text-padding-bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis nesciunt facilis natus aut fugiat laudantium earum eligendi explicabo dolorem.</p>
-                        <a class="text-padding-bottom icon" href="#">more</a>
+                        <a class="text-padding-bottom icon-more" href="#">more</a>
                     </div>
 
                     <div class="container-cards-item">
                         <h2 class="text-padding-bottom">04</h2>
                         <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
                         <p class="text-padding-bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis nesciunt facilis natus aut fugiat laudantium earum eligendi explicabo dolorem.</p>
-                        <a class="text-padding-bottom icon" href="#">more</a>
+                        <a class="text-padding-bottom icon-more" href="#">more</a>
                     </div>
 
                     <div class="container-cards-item">
                         <h2 class="text-padding-bottom">05</h2>
                         <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
                         <p class="text-padding-bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis nesciunt facilis natus aut fugiat laudantium earum eligendi explicabo dolorem.</p>
-                        <a class="text-padding-bottom icon" href="#">more</a>
+                        <a class="text-padding-bottom icon-more" href="#">more</a>
                     </div>
 
                     <div class="container-cards-item">
                         <h2 class="text-padding-bottom">06</h2>
                         <h3 class="text-padding-bottom">Lorem, ipsum.</h3>
                         <p class="text-padding-bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis nesciunt facilis natus aut fugiat laudantium earum eligendi explicabo dolorem.</p>
-                        <a class="text-padding-bottom icon" href="#">more</a>
+                        <a class="text-padding-bottom icon-more" href="#">more</a>
                     </div>
                 </div>
             </section>
@@ -164,27 +174,27 @@
         <!-- About us -->
         <div class="main-container">
             <section class="flex-aboutus">
-                <div class="debug bigger-card">
+                <div class="bigger-card no-bg">
                     <h2 class="text-padding-bottom">About us</h2>
                     <p class="text-padding-bottom">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut officia eligendi omnis voluptas ex alias beatae a, ducimus quae itaque quis delectus exercitationem non iste cumque atque! Fugit voluptatem quisquam ipsa vitae veritatis libero, dicta, quam, cumque laudantium beatae recusandae.</p>
                     <p class="text-padding-bottom">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, sed? Dolorem incidunt a, animi pariatur saepe officia hic ipsum voluptas. Quaerat, dolore incidunt delectus maxime aspernatur praesentium sint, unde sit nesciunt odit alias cum tempora similique expedita? Vitae, dolorum voluptates.</p>
                 </div>
-                <div class="debug smaller-card flex-aboutus-img">
-                    <img id="fix" class="text-padding-bottom" src="" alt="filler">
-                    <h3 class="text-padding-bottom">I help companies Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, vel!</h3>
-                    <a class="icon text-padding-bottom" href="#">Find me on linkedin</a>
+                <div class="smaller-card flex-aboutus-img no-bg">
+                    <img id="fix" class="text-padding-bottom" src="./img/about.jpg" alt="filler">
+                    <h3 class="text-padding-bottom quote">I help companies Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, vel!</h3>
+                    <a class="icon-linkedin text-padding-bottom" href="#">Find me on linkedin</a>
                 </div>
             </section>
         </div>
 
         <!-- Get Started -->
         <div class="main-container-full">
-            <section class="section-padding-bottom main-container-full-section debug text-center">
+            <section class="section-padding-bottom main-container-full-section text-center">
                 <h4 class="text-padding-bottom">Get Started</h4>
                 <h3 class="text-padding-bottom">Lorem, ipsum dolor.</h3>
-                <h2 class="text-padding-bottom">It's Free!</h2>
+                <h2 class="text-padding-bottom free">It's Free!</h2>
                 <p class="text-padding-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, asperiores aliquid repudiandae eveniet fugiat dolorum?</p>
-                <a class="icon bgwhite text-padding-bottom text-margin-bottom" href="#">Get Started</a>
+                <a class="icon bgwhite text-padding-bottom text-margin-bottom txt-dec-none_padding" href="#">Get Started</a>
                 <p>Lorem ipsum dolor sit amet.</p>
             </section>
         </div>
