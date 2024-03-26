@@ -164,7 +164,7 @@ footer div{
         margin-top: 1rem;
     }
     .bigger-card{
-        width: 60%;
+        width: calc(60% + 1rem);
     }
     .smaller-card{
         width: 30%;
