@@ -147,7 +147,7 @@ header nav{
 }
 
 .main-container{
-    width: 60%;
+    width: 90%;
     margin: auto;
     /* background-color: green; */
 }
@@ -162,7 +162,7 @@ section{
 }
 .main-container-full-section{
     gap: 1rem;
-    width: 60%;
+    width: 90%;
     margin: auto;
 }
 
@@ -319,10 +319,9 @@ footer div a::after{
         margin: auto;
         justify-content: space-between;
     }
-    .container-cards-flex *{
-        width: 40%;
-        gap: 1rem;
-    }
+    /* .container-cards-flex *{ */
+        /* width: 45%; */
+    /* } */
     .container-cards-flex h2,
     .container-cards-flex p{
     width: 100%;
@@ -341,12 +340,34 @@ footer div a::after{
     .flex-aboutus .smaller-card{
         width: 40%;
     }
+    #fix{
+        margin-bottom: 1rem;
+    }
+    .quote{
+        padding-bottom: 1rem;
+    }
+    .icon-linkedin{
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
 }
 
 @media (min-width: 992px){
     nav{
         width: 70%;
         margin: auto;
+    }
+    .nav-div-info{
+        display: flex;
+        gap: 2rem;
+        color: white;
+        align-items: center;
+    }
+    i.menu{
+        display: none;
+    }
+    header nav{
+        width: 50%;
     }
     .flex-only992px{
         display: flex;
@@ -360,13 +381,16 @@ footer div a::after{
         align-self: flex-end;
     }
     .main-container{
-        width: 70%;
+        width: 50%;
     }
     .main-container-full-section{
-        width: 70%;
+        width: 50%;
     }
     .cards-block{
         border-radius: 2rem;
+    }
+    #padding-bot-10rem{
+        padding-bottom: 10rem;
     }
 
     .container-cards-item{
