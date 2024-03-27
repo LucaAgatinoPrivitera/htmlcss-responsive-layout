@@ -427,4 +427,12 @@ footer div a::after{
         width: 30%;
         gap: 1rem;
     }
+    #desktop-fix{
+        display: flex;
+    }
+    #desktop-fix img{
+        max-width: 50%;
+        aspect-ratio: 1;
+        object-fit: contain;
+    }
 }
