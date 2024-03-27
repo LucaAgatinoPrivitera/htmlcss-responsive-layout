@@ -378,7 +378,7 @@ footer div a::after{
     }
     .nav-div-info{
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
         color: white;
         align-items: center;
     }
