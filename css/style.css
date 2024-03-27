@@ -221,6 +221,12 @@ a.button{
     border-radius: 3rem;
     color: white;
 }
+div.cards-block div.w30 img{
+    aspect-ratio: 1;
+    padding: 0;
+    object-fit: cover;
+    margin: 1rem;
+} 
 .container-cards-item{
     background-color: white;
     padding: 1rem;
@@ -303,6 +309,12 @@ footer div a::after{
         display: flex;
         text-align: left;
     }
+    div.cards-block div.w30 img{
+        aspect-ratio: 1;
+        padding: 0;
+        object-fit: cover;
+        margin: 1rem;
+    } 
     .w30{
         width: 30%;
     }
@@ -388,7 +400,18 @@ footer div a::after{
     }
     .cards-block{
         border-radius: 2rem;
+        align-items: center;
     }
+    .cards-block *{
+        margin: 0.5rem;
+    }
+    div.cards-block div.w30 img{
+        aspect-ratio: 1;
+        padding: 0;
+        object-fit: cover;
+        margin: 1rem;
+        display: block;
+    } 
     #padding-bot-10rem{
         padding-bottom: 10rem;
     }
